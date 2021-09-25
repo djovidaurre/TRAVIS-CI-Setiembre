@@ -10,6 +10,7 @@ namespace ProjectTest.API.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IConfiguration _configuration;
+        int a = 1;
 
         public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {
